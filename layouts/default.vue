@@ -44,6 +44,7 @@ import { defineComponent } from '@vue/composition-api'
 export default defineComponent({
   setup() {
     return {
+      drawer: null,
       links: [
         ['mdi-inbox-arrow-down', 'Inbox'],
         ['mdi-send', 'Send'],
